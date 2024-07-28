@@ -1,0 +1,89 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2736C1;
+    background-image: url('images/image\ 13.png');
+
+}
+.card{
+    height: 40vh;
+    min-height:250px;
+    width: 13rem;
+    border-radius: 10px;
+    padding: 0.2rem 2rem;
+    margin:2rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    overflow:hidden;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #606060;
+        background-color:#fff;
+    
+}
+.card h1{
+    font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        /* identical to box height */
+
+
+color: #2736C1;
+}
+.card__img{
+    height:11vh;
+    width:11vh;
+    margin:1rem auto;
+    background-color: lightblue;
+    background-image:url('images/default.png');
+    border-radius:50%;
+    background-position:center center;
+    background-size: contain;
+}
+.card__country{
+    font-size:0.rem;
+    color:rgba(0, 0, 0, 0.9);
+    text-align:left;
+    margin-bottom:0.4rem;
+    font-weight:bolder;
+    display: flex;
+}
+.card__country::before{
+    content:'';
+    display: flex;
+    width:20px;
+    height:20px;
+    background:url('images/vector.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header{
+    font-size:3.5rem;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+}
+.banner{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:80px;
+    background-color:rgba(0,0,0,0.75);
+    color:#fff;
+    transition: all 0.3s ease;
+    text-align:center;
+    padding:1rem;
+}
+.banner h3{
+    color:#fff;
+    font-size:2rem;
+    text-transform: uppercase;
+}
